@@ -56,7 +56,7 @@
     </div>
   </div>
   <div class="section-1__cta-container">
-    <a class="section-1__cta" href="/contatti"><?php esc_html_e('Inizia subito!', 'meon'); ?> <span class="section-1__cta-arrow"><?php esc_html_e('-->', 'meon'); ?></span></a>
+    <a class="section-1__cta" href="/contatti"><?php esc_html_e('Scopri di più!', 'meon'); ?> <span class="section-1__cta-arrow"><?php esc_html_e('-->', 'meon'); ?></span></a>
   </div>
 </section>
 
@@ -416,19 +416,20 @@
         <div class="card-content__hidden">
           <h2>SITI WEB LANDING PAGE</h2>
           <p>
-            Le landing page, sono delle pagine web spesso utilizzate nelle campagne marketing per convertire i visitatori in clienti.
+            Le landing page, sono delle pagine web spesso utilizzate nelle campagne marketing per convertire
+            <span class="yellow"> i visitatori in clienti</span>.
             </br></br>
-            Detto ciò, non credi anche tu che una pagina con uno scopo così importante, debba essere intuitiva, ottimizzata e persuasiva?
+            Il loro compito è di fornire un'esperienza utente ottimale, combinando un design intuitivo e contenuti persuasivi per <span class="yellow">massimizzare le</span> possibilità di successo nelle <span class="yellow">conversioni</span>.
             </br></br>
-            Forse te lo aspettavi dato che ne stavo parlando, ma sì, ci occupiamo anche di questo
+            Detto ciò, non credi anche tu che una pagina con uno scopo così importante, debba essere <span class="yellow">intuitiva, ottimizzata e persuasiva</span>?
             </br></br>
-            Se hai bisogno quindi di una pagina web, in grado di attirare l’attenzione del visitatore e 
+            Se hai bisogno quindi di un sito web, in grado di <span class="yellow">attirare l’attenzione</span> del visitatore e 
             convertirlo in un cliente, non esitare a contattarci.
           </p>
         </div>
-        <div class="card-button">
-          <a href="/contatti" class="button">Contattaci</a>
-        </div>
+      </div>
+      <div class="card-button">
+        <a href="/contatti" class="button">Contattaci</a>
       </div>
     </div>
 
@@ -443,20 +444,18 @@
         <div class="card-content__hidden">
           <h2>Il potere della SEO</h2>
           <p>
-            Per quanto un buon sito web visivamente faccia la sua parte, se nessuno lo cerca non è che serva a molto.
+            Per quanto un buon sito web visivamente faccia la sua parte, <span class="yellow">se nessuno lo cerca</span> non è che serva a molto.
             </br></br>
-            È qui che la SEO corre in nostro aiuto. 
+            È qui che la <span class="yellow">SEO</span> corre in nostro aiuto. 
             </br></br>
-            Attraverso i contenuti del tuo sito web e altre tecniche avanzate, siamo in grado di portare 
-            più traffico alla tua pagina web, aumentando  così il tuo posizionamento e i tuoi visitatori. 
+            Attraverso <span class="yellow">i contenuti del tuo sito web</span> e altre tecniche avanzate, siamo in grado di portare più traffico alla tua pagina web, migliorando così il <span class="yellow">tuo posizionamento</span> e aumentando i tuoi visitatori. 
             </br></br>
-            In poche parole, saremo in grado di farti uscire tra i primi risultati, quando una persona cerca 
-            determinate parole nel tuo mercato locale di riferimento
+            In poche parole, sarà nostra premura farti uscire <span class="yellow">tra i primi risultati</span>, quando una persona cerca determinate parole nel tuo mercato locale di riferimento.
           </p>
         </div>
-        <div class="card-button">
-          <a href="/contatti" class="button">Più informazioni</a>
-        </div>
+      </div>
+      <div class="card-button">
+        <a href="/contatti" class="button">Più informazioni</a>
       </div>
     </div>
 
@@ -471,21 +470,18 @@
         <div class="card-content__hidden">
           <h2>Siti web personalizzati</h2>
           <p>
-            Un sito web è <span class="yellow">l'epicentro della tua presenza online.</span> 
+            Il sito web, è una <span class="yellow">rappresentazione digitale del tuo brand</span>, accessibile sempre e a tutti.
             </br></br>
-            Insieme progetteremo una <span class="yellow">piattaforma unica</span>, che offra una panoramica dettagliata dei tuoi 
-            servizi, in modo chiaro e intuitivo, e che risponda ad ogni tua esigenza. 
+            Quello che faremo assieme (tranquillo, noi faremo la parte lunga e noiosa), sarà <span class="yellow">progettare una pagina web</span>, che risponda alle tue necessità e preferenze in campo di design.
             </br></br>
-            I siti web che creiamo sono pensati per essere un <span class="yellow">punto di riferimento</span> per i tuoi visitatori, 
-            presentando in modo completo te e i tuoi prodotti. 
+            Dopodiché svilupperemo il sito web e inseriremo i contenuti opportuni e <span class="yellow">ottimizzati per la SEO</span> al suo interno.
             </br></br>
-            Se desideri espandere la tua comunicazione, è inoltre possibile integrare un blog, creando una connessione più 
-            profonda e interattiva con il tuo pubblico.
+            Infine lo metteremo online, assicurandoci che sia perfetto su ogni dispositivo, così da renderlo l’epicentro della tua <span class="yellow">presenza digitale</span>.
           </p>
         </div>
-        <div class="card-button">
-          <a href="/contatti" class="button">Più informazioni</a>
-        </div>
+      </div>
+      <div class="card-button">
+        <a href="/contatti" class="button">Più informazioni</a>
       </div>
     </div>
 
@@ -500,20 +496,16 @@
         <div class="card-content__hidden">
           <h2>Siti web e-commerce</h2>
           <p>
-            Immagina un mondo in cui lo shopping dei tuoi prodotti <span class="yellow">non abbia limiti</span> di orario e confini 
-            geografici. Nel 2023, gli acquisti online hanno sfiorato i <span class="yellow">54,2 miliardi di euro</span>, un aumento di circa 
-            il 13% rispetto all’anno precedente. 
+            Nell’ultimo anno in Italia, gli acquisti online tramite e-commerce, hanno sfiorato i <span class="yellow">54,2 miliardi di euro</span>, un aumento di circa il 13% rispetto all’anno precedente. 
             </br></br>
-            Hai mai pensato a quanti potenziali clienti potresti raggiungere in un attimo? Immagina di poter creare 
-            il <span class="yellow">tuo sito web e-commerce</span>, unico e su misura, che catturi l'attenzione di clienti ovunque. 
+            Sarebbe bello <span class="yellow">farne parte</span> vero?
             </br></br>
-            Noi siamo qui per <span class="yellow">trasformare questa visione in realtà</span>, offrendoti la possibilità 
-            di costruire un negozio digitale che ti distingua, ti connetta con il tuo pubblico e amplifichi la tua presenza online.
+            Beh, noi ci occupiamo anche della realizzazione di questi siti web, <span class="yellow">gli e-commerce</span>: realizzeremo per te una pagina web, che non sia soltanto una comune piattaforma di acquisti, ma uniremo <span class="yellow">l’essenza del tuo brand</span>, ad un’interfaccia per l’utente semplice ma concisa, per trasformare i visitatori, in <span class="yellow">clienti fedeli</span> del tuo marchio.
           </p>
         </div>
-        <div class="card-button">
-          <a href="/contatti" class="button">Più informazioni</a>
-        </div>
+      </div>
+      <div class="card-button">
+        <a href="/contatti" class="button">Più informazioni</a>
       </div>
     </div>
     
@@ -540,7 +532,7 @@
               <img loading="lazy" decoding="async" class="horizontal-bandiera" src="<?php echo get_stylesheet_directory_uri(); ?>/custom/meon-image/home-page/4-horizontal-section/flags-road/meon-web-agency-web-design-realizzazione-siti-web-varese-horizontal-section-bandiera-1.svg" alt="meon web agency web design realizzazione siti web varese horizontal section bandiera 1">
               <div class="horizontal-text">
                 <h3>Meeting</h3>
-                <p>Appuntamento volto a capire le tue esigenze, in modo da poter capire come risolvere i tuoi problemi</p>
+                <p>Appuntamento volto a capire le <span class="yellow">tue esigenze</span>, in modo da poter comprendere come risolvere i <span class="yellow">tuoi problemi</span>.</p>
               </div>
             </article>
 
@@ -549,7 +541,7 @@
               <img loading="lazy" decoding="async" class="horizontal-bandiera" src="<?php echo get_stylesheet_directory_uri(); ?>/custom/meon-image/home-page/4-horizontal-section/flags-road/meon-web-agency-web-design-realizzazione-siti-web-varese-horizontal-section-bandiera-2.svg" alt="meon web agency web design realizzazione siti web varese horizontal section bandiera 2">
               <div class="horizontal-text">
                 <h3>Design</h3>
-                <p>Uniremo un design accattivante a dei testi coinvolgenti per creare una User Experience volta ad esaltare il brand del sito web</p>
+                <p>Uniremo un <span class="yellow">design</span> accattivante a dei <span class="yellow">testi</span> coinvolgenti per creare una <span class="yellow">User Experience</span> volta ad esaltare il tuo brand</p>
               </div>
             </article>
 
@@ -558,7 +550,7 @@
               <img loading="lazy" decoding="async" class="horizontal-bandiera" src="<?php echo get_stylesheet_directory_uri(); ?>/custom/meon-image/home-page/4-horizontal-section/flags-road/meon-web-agency-web-design-realizzazione-siti-web-varese-horizontal-section-bandiera-3.svg" alt="meon web agency web design realizzazione siti web varese horizontal section bandiera 3">
               <div class="horizontal-text">
                 <h3>Sviluppo</h3>
-                <p>Svilupperemo il tuo sito web usando codice e SEO per migliorare il tuo posizionamento rispetto ai tuoi competitor</p>
+                <p>Svilupperemo il tuo sito web usando <span class="yellow">codice</span> e <span class="yellow">SEO</span> per migliorare il tuo <span class="yellow">posizionamento</span> rispetto ai tuoi competitor</p>
               </div>
             </article>
 
@@ -567,7 +559,7 @@
               <img loading="lazy" decoding="async" class="horizontal-bandiera" src="<?php echo get_stylesheet_directory_uri(); ?>/custom/meon-image/home-page/4-horizontal-section/flags-road/meon-web-agency-web-design-realizzazione-siti-web-varese-horizontal-section-bandiera-4.svg" alt="meon web agency web design realizzazione siti web varese horizontal section bandiera 4">
               <div class="horizontal-text">
                 <h3>Go Live</h3>
-                <p>Messa online. Una volta pronto pubblicheremo il tuo sito web per far spiccare il volo al tuo brand nel mondo del digitale!</p>
+                <p>Messa <span class="yellow">online</span>. Una volta pronto pubblicheremo il tuo sito per far spiccare il <span class="yellow">volo</span> al tuo <span class="yellow">brand</span> nel mondo del digitale!</p>
               </div>
             </article>
 
@@ -752,11 +744,10 @@
     </button>
     <div class="accordion-content">
       <p>
-        La tempistica per lo sviluppo del sito varia in base alle esigenze specifiche del progetto, oscillando da 
-        alcune settimane a pochi mesi. Come web agency, il nostro obiettivo principale è realizzare siti web di alta qualità, 
-        ottimizzati per la SEO e con codice performante. Utilizziamo piattaforme affidabili come WordPress e strumenti come Yoast 
-        SEO per assicurare risultati ottimali nel minor tempo possibile. Se desideri ulteriori informazioni o dettagli personalizzati, 
-        non esitare a contattarci. Saremo lieti di discutere delle tue esigenze e trovare la soluzione migliore per te.
+        Le tempistiche per la realizzazione di un sito web, variano da progetto a progetto in base alle esigenze e alle specifiche richieste.
+        </br></br>
+        Tuttavia, si possono fornire delle stime approssimative che variano come detto in precedenza, da circa qualche settimana, fino ad arrivare ai progetti per siti web più complessi e complicati che possono arrivare anche a pochi mesi. 
+        Se hai bisogno di più informazioni riguardo alle possibili tempistiche del tuo sito web non esitare a contattarci.
       </p>
     </div>
   </div>
@@ -768,11 +759,10 @@
     </button>
     <div class="accordion-content">
       <p>
-        Realizzare un sito web coinvolge molteplici fattori, come la complessità del design, le funzionalità richieste e 
-        l'ottimizzazione per i motori di ricerca, è simile all’acquisto di un auto nuova: in base alle specifiche e agli 
-        optional scelti, il costo varia, e come in concessionaria, per il tuo sito web valutiamo attentamente ciò di cui hai bisogno, 
-        per fornirti il miglior sito web che risponda alle tue esigenze.
-        Se sei interessato contattaci per avere una consulenza gratuita.
+        Il costo per la realizzazione per un sito web, varia esattamente come le sue tempistiche, quindi alla domanda <a href="https://meon.it/article/quanto-costa-un-sito-web/">“quanto costa un sito web”</a> la risposta è: dipende.
+        </br></br>
+        Ci sono molti fattori che possono far oscillare il prezzo, da qualche centinaio di euro, fino a svariate migliaia per i siti web aziendali, tutto dipende dalle specifiche e dalle tue esigenze.
+        Se però hai bisogno di una stima precisa, o semplicemente qualche consiglio, per capire quale possa essere la soluzione migliore per te, non esitare a contattarci.
       </p>
     </div>
   </div>
@@ -784,10 +774,8 @@
     </button>
     <div class="accordion-content">
       <p>
-        La manutenzione continua e l'ottimizzazione del tuo sito web, sono fondamentali per garantirne una alta performance nel 
-        tempo. Noi offriamo soluzioni complete per la gestione, l'aggiornamento e l'ottimizzazione di siti tramite WordPress. 
-        Se desideri scoprire come potremmo prenderci cura del tuo sito e mantenere alto il livello di SEO e funzionalità, non 
-        esitare a contattarci.
+        La manutenzione del tuo sito web è fondamentale, per fargli mantenere quelle prestazioni per la quale lavoriamo tanto, sia a livello di SEO, sia a livello di prestazioni generali del sito internet.
+        Ci occuperemo noi di ogni cosa dal momento in cui il tuo sito web sarà online.
       </p>
     </div>
   </div>
@@ -799,9 +787,9 @@
     </button>
     <div class="accordion-content">
       <p>
-        Assolutamente no, la nostra prassi è quella di evitare l’impiego di template, così da poter rendere ogni sito 
-        web unico. Il nostro obiettivo è progettare e sviluppare soluzioni personalizzate, adattate alle specifiche necessità di 
-        ciascun progetto, per creare un sito web originale, ideato per soddisfare pienamente le tue esigenze. 
+        Tranquillo, noi non usiamo alcun template per realizzare i design dei vari progetti del tuo sito web, ma usiamo invece editor come ad esempio Figma, per realizzare il look che crediamo rispecchi al meglio te e il tuo brand, dopodiché discuteremo assieme per assecondare al meglio i tuoi desideri, e solo quando riusciremo a stupirti, cominceremo e creare tramite codice il tuo sito web su misura.
+        </br></br>
+        Se quindi desideri avere una identità digitale unica, e completamente personalizzata a tua scelta, non esitare a contattarci
       </p>
     </div>
   </div>
@@ -813,11 +801,21 @@
     </button>
     <div class="accordion-content">
       <p>
-        Assolutamente! la nostra priorità è garantire che il tuo sito web sia altamente versatile su ogni dispositivo, 
-        la nostra esperienza nell'utilizzo di piattaforme come WordPress, ci consente di sviluppare siti web dinamici che 
-        si adattano senza problemi a ogni schermo. 
-        Per saperne di più su come assicuriamo la massima accessibilità e funzionalità del tuo sito web, siamo qui per discutere 
-        delle tue esigenze specifiche e per offrirti ulteriori dettagli.
+        Assolutamente! Saper realizzare un buon sito web che si veda bene su dekstop, ma non sui telefoni, e come lasciare un lavoro a metà. Realizzeremo per te un sito web su misura, e che si adatti su ogni dispositivo, per poter rendere la permanenza di ogni visitatore o cliente, piacevole e duratura.
+      </p>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <button aria-expanded="false">
+      <span class="accordion-title">Ma realizzate siti web solo a Varese?</span>
+      <img aria-hidden="true" class="accordion__item-arrow" loading="lazy" decoding="async" src="<?php echo get_stylesheet_directory_uri(); ?>/custom/meon-image/logo/meon-web-agency-web-design-realizzazione-siti-web-varese-add-outline-logo.svg" alt="meon web agency web design realizzazione siti web varese search add logo">
+    </button>
+    <div class="accordion-content">
+      <p>
+        No, non <a href="https://meon.it/realizzazione-siti-web-a-varese/">realizziamo siti web solamente a Varese</a>, ma estendiamo il nostro lavoro in tutta Italia. Indipendentemente dalla tua posizione, siamo pronti ad offrirti le nostre competenze per creare una presenza online unica, che rispecchi la tua attività e soddisfi le tue esigenze specifiche.
+        </br></br>
+        Siamo qui per soddisfare ogni tua richiesta, creando assieme una presenza online di successo.
       </p>
     </div>
   </div>
