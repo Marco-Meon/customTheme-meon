@@ -6,7 +6,7 @@
 /* -------------------------------------------------------------------------------- */
 
 /* ! Cover General structure */
-.cover{min-height: 100vh;display: flex; justify-content: center;flex-direction: column; align-items: center; position: relative;margin-bottom: 110px;}
+.cover{min-height: 100vh;display: flex; justify-content: center;flex-direction: column; align-items: center; position: relative;margin-bottom:110px}
 .cover img{width: 100%; min-height: 100vh;max-width: 100%;z-index: -1;height: 100%;object-fit: cover}
 .cover picture{position: absolute;top: 0;left: 0;height: 100%;object-fit: cover;width:100vw}
 .cover-content {width: 100%;padding: 30px 0;}
@@ -313,7 +313,7 @@
 
 /* ! Horizontal section single card text */
 .horizontal-text{width: 100%; display: flex;align-items: center;flex-direction: column;}
-.horizontal-text p{width: 60%;text-align: center;font-size: 20px;font-weight: normal;font-family: 'Inter';}
+.horizontal-text p{width: 60%;text-align: center;font-size: 20px;font-weight: normal;font-family: 'Inter'}
 .horizontal-text h3{text-align: center;font-size: 50px;color: #FFD600;font-weight: normal;}
 
 /* ! Horizontal section media queries */
@@ -444,7 +444,7 @@
 
 /* ! Home Page FAQ title & arrow(+) */
 .accordion__item-arrow{width: 50px;filter: invert(1);transition: all 0.6s cubic-bezier(.215, .61, .355, 1);}
-.accordion .accordion-title {color: #fff; font-size: clamp(25px, 5vw, 40px);text-align: left;font-family: 'Alegreya Sans SC';}
+.accordion .accordion-title {color: #fff; font-size: clamp(25px, 5vw, 40px);text-align: left;font-family: 'Alegreya Sans SC';word-break: break-word;font-weight: normal;margin: 0}
 
 /* ! Home Page FAQ content */
 .accordion-content {max-height: 0;overflow: hidden;transition: max-height 0.4s ease;}
@@ -472,6 +472,7 @@
 
 /* ! About Page cover background*/
 /* .pageabout-cover__background{z-index: -1; position: fixed; width: 100vw;height: 100vh; background-image: url(meon-image/about-page/1-cover/meon-web-agency-web-design-realizzazione-siti-web-varese-about-background.svg);background-position: center center;background-size: cover;background-repeat: no-repeat;} */
+
 
 /* ! About Page cover structure */
 .pageabout-cover{display: flex;flex-direction: column;align-items: center;z-index: 1;position: relative;height: 200vh;margin-top: 7vh;}
@@ -517,7 +518,7 @@
 /*----------------------------------------------------------------------------------- */
 
 /* ! About Page section 1 text*/
-#pageabout-section-1{height: auto;background: transparent;z-index: 1;position: relative;margin-bottom: 220px;}
+#pageabout-section-1{height: auto;background: transparent;z-index: 1;position: relative;margin-bottom: 220px}
 .pageabout-section-1__text{margin-top: 100px;margin-bottom: 100px;}
 .pageabout-section-1__text h2{font-size: clamp(35px, 6vw, 80px);font-weight: normal;line-height: 100%}
 .pageabout-section-1__text p{font-weight: 300;font-size: clamp(22px, 3vw, 30px);line-height: 110%;letter-spacing: -0.4px;font-family: 'Inter';}
@@ -529,7 +530,38 @@
 .pageabout-section-1__expertise-5col p{font-size: clamp(20px,2vw,35px);}
 
 @media (max-width: 768px) {
-  #pageabout-section-1{margin-bottom: 0px;}
+  #pageabout-section-1{margin-bottom: 110px;}
+}
+
+
+/* -------------------------------------------------------------------------------- */
+/* ! About page media text */
+/* -------------------------------------------------------------------------------- */
+.page-about__media-text{max-width: 1250px;margin: 0 auto;display: flex;flex-direction: column;justify-content: center;align-items: center;}
+.page-about__media-text-cont{display: flex;flex-direction: row;width: 90%;}
+
+/* ! About page media text - image */
+.page-about__media-text-cont picture{width: 50%;object-fit: cover;min-height: 500px;max-height: 70vh;}
+.page-about__media-text-cont picture img{width: 100%;height: 100%;object-fit: cover;}
+.page-about__media-text-cont-1 picture img{border-radius: 30px 0 0 30px;}
+.page-about__media-text-cont-2 picture img{border-radius: 0 30px 30px 0;}
+
+/* ! About page media text - text */
+.page-about__media-text-cont-text{width: 50%;padding: 20px;display: flex;flex-direction: column;justify-content: center;border: 1px solid #FFD600;}
+.page-about__media-text-cont-1 .page-about__media-text-cont-text{border-radius: 0 30px 30px 0;}
+.page-about__media-text-cont-2 .page-about__media-text-cont-text{border-radius: 30px 0 0 30px;}
+.page-about__media-text-cont-text h2{font-weight: normal;line-height: 100%;font-size: clamp(35px, 4.5vw, 50px);}
+.page-about__media-text-cont-text p{font-family: 'Inter';font-weight: 200;font-size: clamp(17px, 2vw, 20px);}
+.page-about__media-text-button{display: flex;}
+
+/* ! About page media text media queries */
+@media (max-width: 768px) {
+  .page-about__media-text{padding: 15px;}
+  .page-about__media-text-cont{display: flex;flex-direction: column;width: 100%;}
+  .page-about__media-text-cont-2{flex-direction: column-reverse;margin-top: 50px;}
+  .page-about__media-text-cont-text{width: 100%;border-radius: 0 0 30px 30px!important;}
+  .page-about__media-text-cont picture{width: 100%;height: 300px;min-height: 200px;}
+  .page-about__media-text-cont picture img{border-radius: 30px 30px 0 0;}
 }
 
 
@@ -557,10 +589,7 @@
 
 /* ! About Page section 2 media queries */
 @media (max-width: 768px) {
-  .page-about__section-2 h2{margin-bottom: 100px;}
-  .page-about__section-2{height: auto;}
-  .page-about__section-2-circle{height: auto;padding-bottom: 110px;padding-top: 300px;}
-  .page-about__section-2-content{width: 90%;opacity: 1;position: relative;margin-bottom: 100px;}
+  .page-about__section-2-content{width: 90%;}
   .page-about__section-2-content h3{font-size: 35px;}
   .page-about__section-2-content p{font-size: 20px;}
 }
@@ -577,30 +606,22 @@
 
 /* ! About Page section 3 */
 /*----------------------------------------------------------------------------------- */
-.page-about__section-3{background: rgb(42, 43, 81,0.8);padding-bottom: 200px;overflow: hidden;}
+.page-about__section-3{background: rgb(42, 43, 81,0.8);padding-bottom: 200px;overflow: hidden;margin-bottom: 220px;}
 .page-about__section-3 p{font-family: 'Bebas Neue';font-size: 100px;text-wrap: nowrap;margin: 0;color: #fff;}
 .page-about__section-3 p.text-outline{color: transparent; -webkit-text-stroke: 1px #fff;}
 .page-about__section-3-line{width: 100%;height: 1px;background: #FFD600;}
 .page-about__section-3-word{display: flex;flex-direction: row;white-space: nowrap;justify-content: center;}
 @media (max-width: 768px) {
+  .pageabout-section-3{margin-bottom: 110px;}
   @media (max-width: 600px) {
-    .page-about__section-3 p{font-size: 60px;}
+  	.page-about__section-3 p{font-size: 60px;}
   }
 }
 
 
-/* ! About Page section 2 reverse */
-/*----------------------------------------------------------------------------------- */
-
-/* ! About Page section 2 reverse general structure */
-.page-about__section-2-reverse{height: 100vh;position: relative;}
-.page-about__section-2-reverse-circle{background: rgb(42, 43, 81,0.8);width: 100vw;height: 120vh;clip-path: circle(100%);position: absolute;top: 0;z-index: -1;}
-
-
-
 /* ! About Page section 4 */
 /*----------------------------------------------------------------------------------- */
-.page-about__section-4{max-width: 1250px;margin: 0 auto;display: flex;justify-content: center;flex-direction: column;align-items: center;margin-bottom: 220px;}
+.page-about__section-4{max-width: 1250px;margin: 0 auto;display: flex;justify-content: center;flex-direction: column;align-items: center;margin-bottom:220px}
 .page-about__section-4 h2{font-weight: normal;font-size: clamp(40px, 7vw, 75px);text-align: center;}
 .page-about__section-4-cont{width: 90%;height: auto; display: flex;flex-direction: row; justify-content: space-between;overflow: hidden;padding: 30px;border-radius: 30px;border: 1px solid #FFD600;}
 .page-about__section-4-cont a{width: 100%;display: flex;justify-content: center;}
@@ -629,11 +650,11 @@
 
 /* ! About Page accordion title & arrow item */
 .page-about__accordion__item-arrow{width: 50px;height: 50px; transition: all 0.6s cubic-bezier(.215, .61, .355, 1);color: #FFD600;font-family: 'Inter';background: #2A2B51;border-radius: 100%;font-size: 25px;display: flex;justify-content: center;align-items: center;text-wrap: nowrap;}
-.page-about__accordion .page-about__accordion-title {color: #fff; font-size: clamp(25px, 5vw, 40px);text-align: left;font-family: 'Alegreya Sans SC';width: calc(100% - 50px);}
+.page-about__accordion .page-about__accordion-title {color: #fff; font-size: clamp(25px, 5vw, 40px);text-align: left;font-family: 'Alegreya Sans SC';width: calc(100% - 50px);word-break: break-word;font-weight: normal;margin:0}
 
 /* ! About Page accordion content */
 .page-about__accordion-content {max-height: 0;overflow: hidden;transition: max-height 0.4s ease;}
-.page-about__accordion-content p {font-size: clamp(18px, 4vw, 25px);font-weight: 300;padding: 20px 0;margin: 0;font-family: 'Inter';font-weight: 200;color: #fff;}
+.page-about__accordion-content p {font-size: clamp(18px, 2vw, 20px);font-weight: 300;padding: 20px 0;margin: 0;font-family: 'Inter';font-weight: 200;color: #fff;}
 
 /* ! About Page accordion expanded*/
 .page-about__accordion button[aria-expanded='true'] .page-about__accordion__item-arrow{transform: rotate(90deg);}
@@ -660,6 +681,7 @@
 
 /* ! Contact Page structure */
 .contact-page{margin-top: 100px;display: flex;justify-content: center;align-items: center;flex-direction: column;}
+.contact-spacer{height: 50px;}
 
 
 /* ! Contact Page form */
@@ -778,7 +800,7 @@
 /* ! Case studies Pages section 1 */
 /* -------------------------------------------------------------------------------- */
 /* ! Case studies Pages section 1 overview */
-.case-page__section-1{background: #49157F;padding: 50px;margin-bottom: 110px;}
+.case-page__section-1{background: #49157F;padding: 50px;margin-bottom:110px}
 .case-page__section-1-container{display: flex;flex-direction: row;max-width: 1250px;margin: 0 auto;justify-content: space-between;}
 .case-page__section-1-text{width: 60%;}
 .case-page__section-1-text h2{font-weight: normal;font-size: clamp(35px, 5.5vw, 60px);}
@@ -820,18 +842,18 @@
   .case-page__section-1-line{background: #fff;width: 100%;height: 1px;margin-bottom: 10px;}
   @media (max-width: 768px) {
     .case-page__section-1{margin-bottom: 50px;}
-  }
-  @media (max-width: 375px) {
+	@media (max-width: 375px) {
     .case-page__section-1-cta{flex-direction: column;align-items: flex-start;}
     .case-page__section-1-cta a{margin-bottom: 10px;}
     .case-page__section-1__cta2-container{padding: 0;}
+  }
   }
 }
 
 
 /* ! Case studies Pages section 2 */
 /* -------------------------------------------------------------------------------- */
-.case-page__section-2{max-width: 1250px;margin: 0 auto;overflow: hidden;padding: 30px;margin-bottom: 110px;}
+.case-page__section-2{max-width: 1250px;margin: 0 auto;overflow: hidden;padding: 30px;margin-bottom:110px}
 .case-page__section-2 h2{font-weight: normal;font-size: clamp(35px, 6vw, 100px);margin: 0;}
 .case-page__section-2 p{font-size: clamp(16px, 2.5vw, 30px);font-family: 'Inter';line-height: 110%;font-weight: 200;}
 .case-page__section-2-imgcont{overflow: hidden;}
@@ -843,7 +865,7 @@
 
 /* ! Case studies Pages section 3 */
 /* -------------------------------------------------------------------------------- */
-.case-page__section-3{max-width: 1250px;margin: 0 auto;overflow: hidden;padding: 30px;margin-bottom: 110px;}
+.case-page__section-3{max-width: 1250px;margin: 0 auto;overflow: hidden;padding: 30px;margin-bottom: 110px}
 .case-page__section-3 h2{font-weight: normal;font-size: clamp(35px, 6vw, 100px);margin: 0;}
 .case-page__section-3 p{font-size: clamp(16px, 2.5vw, 30px);font-family: 'Inter';line-height: 110%;font-weight: 200;}
 .case-page__section-3-imgcont{display: flex;justify-content: space-between;flex-direction: row;align-items: center;}

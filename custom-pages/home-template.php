@@ -13,9 +13,9 @@
 <!-- ! Cover -->
 <section class="cover overflow">
   <picture>
-    <source media="(max-width: 500px)" 
+    <source media="(max-width: 500px)"
       srcset="<?php echo get_stylesheet_directory_uri(); ?>/custom/meon-image/home-page/1-cover/meon-web-agency-web-design-realizzazione-siti-web-varese-home-cover-450-920.webp 300w">
-    <img loading="lazy" decoding="async" alt="meon web agency web design realizzazione siti web varese home cover"
+    <img decoding="async" alt="meon web agency web design realizzazione siti web varese home cover"
       src="<?php echo get_stylesheet_directory_uri(); ?>/custom/meon-image/home-page/1-cover/meon-web-agency-web-design-realizzazione-siti-web-varese-home-cover-1920-1076.webp" 
       srcset="
         <?php echo get_stylesheet_directory_uri(); ?>/custom/meon-image/home-page/1-cover/meon-web-agency-web-design-realizzazione-siti-web-varese-home-cover-750-920.webp 600w, 
@@ -28,7 +28,7 @@
     <h1><?php esc_html_e('Realizzazione siti web Wordpress a Varese', 'meon');?></h1>
     <div id="scramble-text"></div>
     <h2><?php esc_html_e('Realizzazione', 'meon');?> <span class="yellow"><?php esc_html_e('Siti Web Unici', 'meon');?> </span></h2>
-    <a href="/contatti" class="cover-cta">
+    <a href="https://meon.it/contatti" class="cover-cta">
       <div class="cover-cta__circle">
         <div class="cover-cta__text"><?php esc_html_e( 'Consulenza', 'meon'); ?></br> <?php esc_html_e( 'gratuita', 'meon'); ?></div>
       </div>
@@ -56,7 +56,7 @@
     </div>
   </div>
   <div class="section-1__cta-container">
-    <a class="section-1__cta" href="/contatti"><?php esc_html_e('Scopri di più!', 'meon'); ?> <span class="section-1__cta-arrow"><?php esc_html_e('-->', 'meon'); ?></span></a>
+    <a class="section-1__cta" href="https://meon.it/contatti"><?php esc_html_e('Scopri di più!', 'meon'); ?> <span class="section-1__cta-arrow"><?php esc_html_e('-->', 'meon'); ?></span></a>
   </div>
 </section>
 
@@ -91,7 +91,7 @@
               Se però invece, necessiti di qualcosa di diverso, unico e capace di attirare l’attenzione 
               del tuo pubblico ideale, Sei nel <span class="yellow">posto giusto</span>😉
             </p>
-            <a class="button" href="/contatti"><?php esc_html_e( 'Scopri come!', 'meon'); ?></a>
+            <a class="button" href="https://meon.it/contatti"><?php esc_html_e( 'Scopri come!', 'meon'); ?></a>
           </div>
         </div>
 
@@ -116,7 +116,7 @@
               Infine implementeremo il testo, unendo un contenuto che richiami l’attenzione, insieme 
               a tecniche SEO per attirare <span class="yellow">nuovi visitatori</span>.
             </p>
-            <a class="button" href="/contatti">Creiamo qualcosa<span>-></span></a>
+            <a class="button" href="https://meon.it/contatti">Creiamo qualcosa<span>-></span></a>
           </div>
         </div>
 
@@ -169,7 +169,7 @@
     </div>
   </div>
 
-  <h2 class="section-2-rec__title">Crea la <span class="yellow">tua identità</span>.</br><span class="yellow">Conquista </span>il mondo <span class="yellow">digitale </span></h2>
+  <h2 class="section-2-rec__title">Crea la <span class="yellow">tua identità</span>.</br> <span class="yellow">Conquista</span> il mondo <span class="yellow">digitale</span></h2>
 
   <div class="col-50 section-2-col2">
     <div class="section-2-container">
@@ -217,7 +217,7 @@
 <!-- ! Section 2 mobile -->
 <section class="section-2__mobile grid grid--center">
 
-  <h2 class="section-2-rec__title-mobile">Crea la <span class="yellow">tua identità</span>.</br><span class="yellow">Conquista </span>il mondo <span class="yellow">digitale </span></h2>  
+  <h2 class="section-2-rec__title-mobile">Crea la <span class="yellow">tua identità</span>.</br> <span class="yellow">Conquista</span> il mondo <span class="yellow">digitale</span></h2>
 
   <div class="col-100 section-2__mobile-item">
     <div class="section-2__mobile-item-title">
@@ -235,18 +235,16 @@
     </div>
     <div class="section-2__mobile-item-content">
       <div class="section-2__mobile-item-content-2">
-        <h2>Stai cercando un sito web <span class="yellow">identico alla massa</span>? Sei nel <span class="yellow">posto sbagliato</span></h2>
+        <h2>Cerchi un sito web che si <span class="yellow">distingua dalla massa</span>? Sei nel <span class="yellow">posto giusto</span>.</h2>
         <div class="section-2__mobile-line"></div>
         <p>
-          Promettono tutti siti web personalizzati e unici, ma alla fine si riducono per essere tutti 
-          uguali come su una catena di montaggio, secondo te come mai?
+          Dicono tutti che faranno un <span class="yellow">sito web speciale</span>, <span class="yellow">unico</span>, ma 	alla fine sono sempre tutti uguali, come se fossero prodotti in serie. Secondo te perché?
           </br></br>
-          L’obiettivo è quello di fare più siti web possibili, senza però badare alla qualità, per massimizzare i profitti....
+          L’obiettivo ormai, è quello di realizzare il maggior numero di siti web, <span class="yellow">senza</span> però <span class="yellow">preoccuparsi della qualità</span>...
           </br></br>
-          Se però vuoi invece qualcosa di <span class="yellow">diverso, unico</span> e capace di attirare 
-          l’attenzione del tuo pubblico ideale, Sei nel <span class="yellow">posto giusto</span> 😉
+          Se però sei alla ricerca di qualcosa di diverso, che si faccia notare e che possa davvero aiutare a <span class="yellow">crescere la tua attività</span>, sei nel posto giusto 😉
         </p>
-        <a class="section-2__mobile-cta button" href="/contatti"><?php esc_html_e( 'CONTATTACI', 'meon'); ?></a>
+        <a class="section-2__mobile-cta button" href="https://meon.it/contatti"><?php esc_html_e( 'Scopri come!', 'meon'); ?></a>
       </div>
     </div>
   </div>
@@ -267,21 +265,19 @@
     </div>
     <div class="section-2__mobile-item-content">
       <div class="section-2__mobile-item-content-2">
-        <h2>ok, ma in concreto, in cosa siete <span class="yellow">diversi?</span></h2>
+        <h2>Va bene, ma in cosa vi <span class="yellow">distinguete</span> in pratica?</h2>
         <div class="section-2__mobile-line"></div>
         <p>
-          La nostra marcia in più? </br>
-          è tutta nella nostra ideologia, noi trattiamo i siti web non come semplici fotocopie, ma come <span class="yellow">singoli </span>
-          capolavori digitali volti a soddisfare le tue esigenze.
+          Cosa ci rende unici? </br>
+          Il nostro pensiero: consideriamo i siti web non come semplici copie, ma come autentiche <span class="yellow">opere d’arte digitali</span> progettate su misura per te.
           </br></br>
           La differenza tangibile? </br>
-          <span class="yellow">Usiamo il codice</span> in modo creativo creando animazioni coinvolgenti e usiamo la SEO per 
-          posizionare il tuo sito in testa ai tuoi concorrenti.
+          Utilizziamo il codice in modo creativo per creare animazioni coinvolgenti e sfruttiamo la SEO per far sì che <span class="yellow">il tuo sito web spicchi</span> tra i tuoi concorrenti.
           </br></br>
-          L’obiettivo? </br>
-          Far emergere <span class="yellow">la tua presenza online</span> in modo unico.
+          <span class="yellow">L’obiettivo</span>? </br>
+          Far risaltare la tua presenza online in modo distintivo.
         </p>
-        <a class="section-2__mobile-cta button" href="/contatti"><?php esc_html_e( 'CONTATTAMI', 'meon'); ?></a>
+        <a class="section-2__mobile-cta button" href="https://meon.it/contatti"><?php esc_html_e( 'Creiamo qualcosa', 'meon'); ?></a>
       </div>
     </div>
   </div>
@@ -302,16 +298,13 @@
     </div>
     <div class="section-2__mobile-item-content">
       <div class="section-2__mobile-item-content-2">
-        <h2>Cosa vuol dire che usiamo il <span class="yellow">'codice’</span>?</h2>
+        <h2>Cosa intendiamo quando parliamo di <span class="yellow">'codice’</span>?</h2>
         <div class="section-2__mobile-line"></div>
         <p>
-          Al contrario di molte soluzioni comuni, che si basano sull’uso di page builder già predefiniti 
-          (e che quindi <span class="yellow">limitano la creatività</span> del tuo sito web), noi usiamo il codice. 
+          A differenza di molte metodologie comuni, che si basano su page builder già predefiniti (che di conseguenza <span class="yellow">limitano la creatività</span> del tuo sito web), noi usiamo il codice.
           </br></br>
-          Esso ci permette di uscire dalla norma, consentendoci di realizzare sul tuo sito web animazioni 
-          complesse e un <span class="yellow">design assolutamente unico</span>.
+          Questo ci consente di rompere gli schemi, permettendoci di creare sul tuo sito web <span class="yellow">animazioni coinvolgenti</span> e un design assolutamente originale.
         </p>
-        <a class="section-2__mobile-cta button" href="/contatti"><?php esc_html_e( 'CONTATTAMI', 'meon'); ?></a>
       </div>
     </div>
   </div>
@@ -332,23 +325,22 @@
     </div>
     <div class="section-2__mobile-item-content">
       <div class="section-2__mobile-item-content-2">
-        <h2>Che cos’è la <span class="yellow">SEO</span>?</h2>
+        <h2>Che cos’è la <span class="yellow">SEO</span> e a cosa serve al mio sito web?</h2>
         <div class="section-2__mobile-line"></div>
         <p>
-          La SEO (Searching Engine Optimization) è semplicemente uno <span class="yellow">strumento indispensabile</span> 
-          nel mondo digitale. 
+          La SEO (Search Engine Optimization) è come una <span class="yellow">bussola</span> 
+          per i motori di ricerca nel mondo digitale. 
           </br></br>
-          Immagina i motori di ricerca come guide: la SEO li orienta verso il tuo sito web quando qualcuno cerca argomenti simili.
+          Immagina i motori di ricerca come esploratori: la SEO funge da guida, dirigendoli verso il tuo sito web quando cercano argomenti simili.
           </br></br>
-          Utilizzando le giuste tecniche, siamo in grado <span class="yellow">di migliorare il posizionamento del tuo sito 
-          web</span> aumentando così il numero di visitatori.
+          Grazie alle tecniche adeguate, possiamo potenziare la visibilità del tuo sito web, garantendo un <span class="yellow">miglior posizionamento</span> e attirando più visitatori.
         </p>
-        <a class="section-2__mobile-cta button" href="/contatti"><?php esc_html_e( 'CONTATTAMI', 'meon'); ?></a>
       </div>
     </div>
   </div>
 
 </section>
+
 
 
 <!-- ! Case study -->
@@ -361,7 +353,7 @@
 
     <div class="case-study-item grid" >
       <div class="col-100">
-        <a href="/case-page-caffe-del-borgo">
+        <a href="https://meon.it/case-page-caffe-del-borgo">
           <picture>
             <source media="(max-width: 500px)" srcset="<?php echo get_stylesheet_directory_uri(); ?>/custom/meon-image/home-page/3-case-studies/mobile-images/caffe-del-borgo/meon-web-agency-web-design-realizzazione-siti-web-varese-web-case-studies-caffe-del-borgo-mobile-550.webp 450w,
               <?php echo get_stylesheet_directory_uri(); ?>/custom/meon-image/home-page/3-case-studies/mobile-images/caffe-del-borgo/meon-web-agency-web-design-realizzazione-siti-web-varese-web-case-studies-caffe-del-borgo-mobile-330.webp 270w">
@@ -379,7 +371,7 @@
 
     <div class="case-study-item grid" >
       <div class="col-100">
-        <a href="/case-page-parrucchiere-demartis">
+        <a href="https://meon.it/case-page-parrucchiere-demartis">
           <picture>
             <source media="(max-width: 500px)" srcset="<?php echo get_stylesheet_directory_uri(); ?>/custom/meon-image/home-page/3-case-studies/mobile-images/demartis/meon-web-agency-web-design-realizzazione-siti-web-varese-web-case-studies-demartis-mobile-550.webp 450w,
               <?php echo get_stylesheet_directory_uri(); ?>/custom/meon-image/home-page/3-case-studies/mobile-images/demartis/meon-web-agency-web-design-realizzazione-siti-web-varese-web-case-studies-demartis-mobile-330.webp 270w">
@@ -400,7 +392,7 @@
 
 
 <!-- ! Service section -->
-<h2 class="section-4__title">I miei servizi</h2>
+<h2 class="section-4__title">I nostri servizi</h2>
 <section class="section-4">
 
   <div class='wrapper'>
@@ -429,7 +421,7 @@
         </div>
       </div>
       <div class="card-button">
-        <a href="/contatti" class="button">Contattaci</a>
+        <a href="https://meon.it/contatti" class="button">Più informazioni</a>
       </div>
     </div>
 
@@ -455,7 +447,7 @@
         </div>
       </div>
       <div class="card-button">
-        <a href="/contatti" class="button">Più informazioni</a>
+        <a href="https://meon.it/contatti" class="button">Più informazioni</a>
       </div>
     </div>
 
@@ -481,7 +473,7 @@
         </div>
       </div>
       <div class="card-button">
-        <a href="/contatti" class="button">Più informazioni</a>
+        <a href="https://meon.it/contatti" class="button">Più informazioni</a>
       </div>
     </div>
 
@@ -505,7 +497,7 @@
         </div>
       </div>
       <div class="card-button">
-        <a href="/contatti" class="button">Più informazioni</a>
+        <a href="https://meon.it/contatti" class="button">Più informazioni</a>
       </div>
     </div>
     
@@ -525,7 +517,6 @@
       <div class="horizontal-sticky">
         <div class="horizontal">
           <section role="feed" class="horizontal-cards">
-
 
             <article class="horizontal-sample-card">
               <img loading="lazy" decoding="async" class="horizontal-img" src="<?php echo get_stylesheet_directory_uri(); ?>/custom/meon-image/home-page/4-horizontal-section/images/meon-web-agency-web-design-realizzazione-siti-web-varese-horizontal-section-meeting-450.webp" alt="meon web agency web design realizzazione siti web varese horizontal section meeting">
@@ -568,7 +559,7 @@
         <img loading="lazy" decoding="async" class="horizontal-road" src="<?php echo get_stylesheet_directory_uri(); ?>/custom/meon-image/home-page/4-horizontal-section/flags-road/meon-web-agency-web-design-realizzazione-siti-web-varese-horizontal-section-strada.svg" alt="meon web agency web design realizzazione siti web varese horizontal section road">
       </div>
     </div>
-    <img loading="lazy" decoding="async" class="horizontal-road-mobile" src="<?php echo get_stylesheet_directory_uri(); ?>/custom/meon-image/home-page/4-horizontal-section/flags-road/meon-web-agency-web-design-realizzazione-siti-web-varese-horizontal-section-strada.svg" alt="meon web agency web design realizzazione siti web varese horizontal section road">
+	<img loading="lazy" decoding="async" class="horizontal-road-mobile" src="<?php echo get_stylesheet_directory_uri(); ?>/custom/meon-image/home-page/4-horizontal-section/flags-road/meon-web-agency-web-design-realizzazione-siti-web-varese-horizontal-section-strada.svg" alt="meon web agency web design realizzazione siti web varese horizontal section road">
   </section>
 </div>
 
@@ -651,13 +642,13 @@
   <!-- HTML per mostrare gli articoli -->
   <article class="home-blog__article">
 
-    <div class="home-blog__image">
-      <?php
-      $thumbnail_id = get_post_thumbnail_id(get_the_ID());
-      $thumbnail = wp_get_attachment_image($thumbnail_id, 'full', false, array('loading' => 'lazy'));
-      echo $thumbnail;
-      ?>
-    </div>
+        <div class="home-blog__image">
+		  <?php
+		  $thumbnail_id = get_post_thumbnail_id(get_the_ID());
+		  $thumbnail = wp_get_attachment_image($thumbnail_id, 'full', false, array('loading' => 'lazy'));
+		  echo $thumbnail;
+		  ?>
+		</div>
 
     <div class="home-blog__text">
       <div class="home-blog__date"><?php the_time('j F Y');?></div>
@@ -679,55 +670,55 @@
     wp_reset_postdata();
   ?>
 
-  <a href="/blog" class="button home-blog__button">Scopri di più <span>--></span></a>
+  <a href="https://meon.it/blog" class="button home-blog__button">Scopri di più <span>--></span></a>
 </section>
 
 
 <!-- ! Newsletter -->
 <section class="newsletter">
 
-  <div id="mc_embed_signup">
+	<div id="mc_embed_signup">
 
-    <div class="mc_embed-title">
-      <h3>Newsletter</h3>
-      <h2>Rimani sempre aggiornato</h2>
-    </div>
+		<div class="mc_embed-title">
+			<h3>Newsletter</h3>
+			<h2>Rimani sempre aggiornato</h2>
+		</div>
 
-    <form action="https://meon.us21.list-manage.com/subscribe/post?u=7d83e04df60bf2ef0cc2d3d56&amp;id=19d9a7c072&amp;f_id=009d29e7f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
-      <div id="mc_embed_signup_scroll">
-        <img loading="lazy" decoding="async" alt="meon web agency web design realizzazione siti web varese sito web logo mail"
-          src="<?php echo get_stylesheet_directory_uri(); ?>/custom/meon-image/logo/loghi-social/blue-logos/meon-web-agency-web-design-realizzazione-siti-web-varese-social-logo-mail-blue.svg">
+		<form action="https://meon.us21.list-manage.com/subscribe/post?u=7d83e04df60bf2ef0cc2d3d56&amp;id=19d9a7c072&amp;f_id=009d29e7f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+			<div id="mc_embed_signup_scroll">
+				<img loading="lazy" decoding="async" alt="meon web agency web design realizzazione siti web varese sito web logo mail"
+					 src="<?php echo get_stylesheet_directory_uri(); ?>/custom/meon-image/logo/loghi-social/blue-logos/meon-web-agency-web-design-realizzazione-siti-web-varese-social-logo-mail-blue.svg">
 
-        <div class="mc_embed-input">
-          <div class="mc-field-group">
-            <input autocomplete="off" type="text" placeholder="nome" name="FNAME" class="required text" id="mce-FNAME" required="" value="">
-          </div>
-          <div class="mc-field-group">
-            <input autocomplete="off" placeholder="Latuaemail@gmail.com" type="email" name="EMAIL" class="required email" id="mce-EMAIL" required="" value="">
-          </div>
+				<div class="mc_embed-input">
+					<div class="mc-field-group">
+						<input autocomplete="off" type="text" placeholder="nome" name="FNAME" class="required text" id="mce-FNAME" required="" value="">
+					</div>
+					<div class="mc-field-group">
+						<input autocomplete="off" placeholder="email@dominio.com" type="email" name="EMAIL" class="required email" id="mce-EMAIL" required="" value="">
+					</div>
 
-          <div id="mce-responses" class="clear foot">
-            <div class="response" id="mce-error-response" style="display: none;"></div>
-            <div class="response" id="mce-success-response" style="display: none;"></div>
-          </div>
+					<div id="mce-responses" class="clear foot">
+						<div class="response" id="mce-error-response" style="display: none;"></div>
+						<div class="response" id="mce-success-response" style="display: none;"></div>
+					</div>
 
-          <div aria-hidden="true" style="position: absolute; left: -5000px;">
-            <input type="text" name="b_7d83e04df60bf2ef0cc2d3d56_19d9a7c072" tabindex="-1" value="">
-          </div>
-        </div>
+					<div aria-hidden="true" style="position: absolute; left: -5000px;">
+						<input type="text" name="b_7d83e04df60bf2ef0cc2d3d56_19d9a7c072" tabindex="-1" value="">
+					</div>
+				</div>
 
-        <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="button">--></button>
-      </div>
+				<button type="submit" name="subscribe" id="mc-embedded-subscribe" class="button">--></button>
+			</div>
 
-      <label >
-        <input type="checkbox" id="privacy-checkbox-news" name="privacy-checkbox" required>
-        Ho preso visione dell’informativa al trattamento dei dati personali della <a target="_blank" href="https://www.iubenda.com/privacy-policy/99972493">privacy policy</a>
-      </label>
-      <div class="error-message" id="privacy-error">Devi accettare la privacy policy per poter procedere.</div>
-    
-    </form>
+			<label >
+				<input type="checkbox" id="privacy-checkbox-news" name="privacy-checkbox" required>
+				Ho preso visione dell’informativa al trattamento dei dati personali della <a target="_blank" href="https://meon.it/privacy-policy">privacy policy</a>
+			</label>
+			<div class="error-message" id="privacy-error">Devi accettare la privacy policy per poter procedere.</div>
 
-  </div>
+		</form>
+
+	</div>
 
 </section>
 
@@ -739,7 +730,7 @@
 
   <div class="accordion-item">
     <button aria-expanded="false">
-      <span class="accordion-title">Quanto tempo servirà per sviluppare il sito web?</span>
+      <h3 class="accordion-title">Quanto tempo servirà per sviluppare il sito web?</h3>
       <img aria-hidden="true" class="accordion__item-arrow" loading="lazy" decoding="async" src="<?php echo get_stylesheet_directory_uri(); ?>/custom/meon-image/logo/meon-web-agency-web-design-realizzazione-siti-web-varese-add-outline-logo.svg" alt="meon web agency web design realizzazione siti web varese search add logo">
     </button>
     <div class="accordion-content">
@@ -754,7 +745,7 @@
 
   <div class="accordion-item">
     <button aria-expanded="false">
-      <span class="accordion-title">Quanto verrà a costare il sito web?</span>
+      <h3 class="accordion-title">Quanto verrà a costare il sito web?</h3>
       <img aria-hidden="true" class="accordion__item-arrow" loading="lazy" decoding="async" src="<?php echo get_stylesheet_directory_uri(); ?>/custom/meon-image/logo/meon-web-agency-web-design-realizzazione-siti-web-varese-add-outline-logo.svg" alt="meon web agency web design realizzazione siti web varese search add logo">
     </button>
     <div class="accordion-content">
@@ -769,7 +760,7 @@
 
   <div class="accordion-item">
     <button aria-expanded="false">
-      <span class="accordion-title">Come verrà gestita la  manutenzione del sito web?</span>
+      <h3 class="accordion-title">Come verrà gestita la  manutenzione del sito web?</h3>
       <img aria-hidden="true" class="accordion__item-arrow" loading="lazy" decoding="async" src="<?php echo get_stylesheet_directory_uri(); ?>/custom/meon-image/logo/meon-web-agency-web-design-realizzazione-siti-web-varese-add-outline-logo.svg" alt="meon web agency web design realizzazione siti web varese search add logo">
     </button>
     <div class="accordion-content">
@@ -782,7 +773,7 @@
 
   <div class="accordion-item">
     <button aria-expanded="false">
-      <span class="accordion-title">Userete dei template uguali agli altri siti web per costruire il mio?</span>
+      <h3 class="accordion-title">Userete dei template uguali agli altri siti web per costruire il mio?</h3>
       <img aria-hidden="true" class="accordion__item-arrow" loading="lazy" decoding="async" src="<?php echo get_stylesheet_directory_uri(); ?>/custom/meon-image/logo/meon-web-agency-web-design-realizzazione-siti-web-varese-add-outline-logo.svg" alt="meon web agency web design realizzazione siti web varese search add logo">
     </button>
     <div class="accordion-content">
@@ -796,7 +787,7 @@
 
   <div class="accordion-item">
     <button aria-expanded="false">
-      <span class="accordion-title">Il mio sito web sarà responsive?</span>
+      <h3 class="accordion-title">Il mio sito web sarà responsive?</h3>
       <img aria-hidden="true" class="accordion__item-arrow" loading="lazy" decoding="async" src="<?php echo get_stylesheet_directory_uri(); ?>/custom/meon-image/logo/meon-web-agency-web-design-realizzazione-siti-web-varese-add-outline-logo.svg" alt="meon web agency web design realizzazione siti web varese search add logo">
     </button>
     <div class="accordion-content">
@@ -808,7 +799,7 @@
 
   <div class="accordion-item">
     <button aria-expanded="false">
-      <span class="accordion-title">Ma realizzate siti web solo a Varese?</span>
+      <h3 class="accordion-title">Ma realizzate siti web solo a Varese?</h3>
       <img aria-hidden="true" class="accordion__item-arrow" loading="lazy" decoding="async" src="<?php echo get_stylesheet_directory_uri(); ?>/custom/meon-image/logo/meon-web-agency-web-design-realizzazione-siti-web-varese-add-outline-logo.svg" alt="meon web agency web design realizzazione siti web varese search add logo">
     </button>
     <div class="accordion-content">
