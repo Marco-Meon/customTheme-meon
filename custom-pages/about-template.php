@@ -327,6 +327,55 @@
 </section>
 
 
+<section class="page-about__full-image">
+  <picture>
+    <source media="(max-width: 600px)"
+        srcset="<?php echo get_stylesheet_directory_uri(); ?>/custom/meon-image/about-page/4-full-image/meon-web-agency-web-design-realizzazione-siti-web-varese-tech-355-600.webp 300w,
+        <?php echo get_stylesheet_directory_uri(); ?>/custom/meon-image/about-page/4-full-image/meon-web-agency-web-design-realizzazione-siti-web-varese-tech-503-850.webp 600w,
+        <?php echo get_stylesheet_directory_uri(); ?>/custom/meon-image/about-page/4-full-image/meon-web-agency-web-design-realizzazione-siti-web-varese-tech-650-1100.webp">
+    <img loading="lazy" decoding="async" alt="Meon realizzazione siti web Wordpress Varese - stretta di mano con clienti"
+      src="<?php echo get_stylesheet_directory_uri(); ?>/custom/meon-image/about-page/4-full-image/meon-web-agency-web-design-realizzazione-siti-web-varese-tech-1300-700.webp" 
+      srcset="
+        <?php echo get_stylesheet_directory_uri(); ?>/custom/meon-image/about-page/4-full-image/meon-web-agency-web-design-realizzazione-siti-web-varese-tech-650-350.webp 769w, 
+        <?php echo get_stylesheet_directory_uri(); ?>/custom/meon-image/about-page/4-full-image/meon-web-agency-web-design-realizzazione-siti-web-varese-tech-950-512.webp 900w,
+        <?php echo get_stylesheet_directory_uri(); ?>/custom/meon-image/about-page/4-full-image/meon-web-agency-web-design-realizzazione-siti-web-varese-tech-1300-700.webp">
+  </picture>
+</section>
+
+
+<section class="page-about__final-cta">
+  <div class="page-about__final-cta-cont">
+    <div class="page-about__final-cta-title">
+      <div class="page-about__final-cta-title-cont">
+        <h2>Realizza il tuo sito web a Varese</h2>
+        <div class="page-about__final-cta-line"></div>
+      </div>
+    </div>
+    <div class="page-about__final-cta-text">
+      <p>
+        Se sei qui, è perché cerchi <span class="yellow">qualcosa di più</span> di un sito web.
+        </br></br>
+        Cerchi un’esperienza online, che non solo rappresenti la tua attività a Varese, ma <span class="yellow">la valorizzi</span> nel migliore dei modi.
+        </br></br>
+        Immagina ora questo: un design personalizzato che si adatta ai tuoi gusti, una strategia SEO che ti porterà <span class="yellow">in cima alle ricerche locali</span>, e un supporto costante che garantirà che la tua presenza online a Varese sia <span class="yellow">sempre al massimo</span>.
+      </p>
+      <div class="page-about__final-cta-line"></div>
+      <p>
+        È il momento di dare vita a questa <span class="yellow">visione</span>.
+        </br></br>
+        Non aspettare oltre, è arrivato il momento di trasformare la tua presenza digitale, da “Normale”, a <span class="yellow">“Straordinaria”</span>.
+        </br></br>
+        Contattaci ora, e realizziamo un sito web che valorizzi al <span class="yellow">massimo</span> la tua attività a Varese.
+      </p>
+      <div class="page-about__final-cta-line"></div>
+      <div class="page-about__final-cta-button-cont">
+        <a class="page-about__final-cta-button" href="https://meon.it/contatti">Inizia ora!<span class="page-about__final-cta-button-arrow">--></span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
 <!-- ! Form -->
 <?php include(get_template_directory() . '/custom-section/contact.php'); ?>
 

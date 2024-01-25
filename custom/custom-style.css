@@ -636,12 +636,12 @@
 /* -------------------------------------------------------------------------------- */
 
 /* ! About Page accordion structure*/
-.page-about__accordion{background: transparent;padding: 100px 0;margin-bottom: 220px;}
-.page-about__accordion-cont{max-width: 1250px;margin: 0 auto;display: flex;flex-direction: row;}
+.page-about__accordion{background: transparent;margin: 0 auto;margin-bottom: 220px;padding: 0;max-width: 1250px;}
+.page-about__accordion-cont{display: flex;flex-direction: row;width: 90%;margin: 0 auto;}
 .page-about__accordion-item{border-top: 1px solid #FFD600;}
 .page-about__accordion-item:last-of-type{border-bottom: 1px solid #FFD600;}
 .page-about__accordion button {cursor: pointer; position: relative;display: flex;align-items: center;justify-content: space-between;padding: 20px 0;width: 100%;background: transparent; border: none;}
-.page-about__accordion-cont-title, .page-about__accordion-cont-service{width: 45%;}
+.page-about__accordion-cont-title, .page-about__accordion-cont-service{width: 100%;}
 
 /* ! About Page accordion title */
 .page-about__accordion-cont-title{display: flex;justify-content: center;}
@@ -662,6 +662,7 @@
 
 /* ! About Page accordion queries */
 @media (max-width: 768px) {
+  .page-about__accordion-cont{width: 100%;}
   .page-about__accordion{margin-bottom: 110px;}
   .page-about__accordion-cont-title h2{font-size: 50px;}
   .page-about__accordion button{padding: 25px 0;}
@@ -673,6 +674,56 @@
   .page-about__accordion-cont-title-cont h2{position: initial;}
 }
 
+
+/* -------------------------------------------------------------------------------- */
+/* ! Page About full image */
+/* -------------------------------------------------------------------------------- */
+.page-about__full-image{max-width: 1250px; margin: 0 auto;margin-bottom: 220px;}
+.page-about__full-image picture{margin: 0 auto;width: 90%;display: block;}
+.page-about__full-image picture img{width: 100%;height: 100%;object-fit: cover;max-height: 90vh;border-radius: 30px;margin: 0 auto;}
+@media (max-width: 768px) {
+  .page-about__full-image{margin-bottom: 110px;}
+  @media (max-width: 600px) {
+    .page-about__full-image picture{height: 70vh;}
+  }
+}
+
+
+/* -------------------------------------------------------------------------------- */
+/* ! Page About final CTA */
+/* -------------------------------------------------------------------------------- */
+.page-about__final-cta{max-width: 1250px; margin: 0 auto;margin-bottom: 220px;}
+.page-about__final-cta-cont{width: 90%;margin: 0 auto;display: flex;flex-direction: row;}
+.page-about__final-cta-line{height: 1px;width: 100%;background: #FFD600;margin-bottom: 15px;}
+
+/* ! Page About final CTA title */
+.page-about__final-cta-title{width: 100%;padding: 0 20px;}
+.page-about__final-cta-title-cont{position: sticky;top: 20%;}
+.page-about__final-cta-title h2{font-weight: normal;font-size: clamp(35px, 5vw, 50px);}
+
+/* ! Page About final CTA text */
+.page-about__final-cta-text{width: 100%;}
+.page-about__final-cta-text p{font-family: 'Inter';font-size: clamp(18px, 2.5vw, 25px);font-weight: 200;}
+
+/* Page About final CTA button */
+.page-about__final-cta-button-cont{display: flex;justify-content: flex-start;}
+.page-about__final-cta-button{font-size: clamp(20px, 7vw, 40px);text-transform: uppercase;position: relative;display: flex;align-items: center;font-family: 'Alegreya Sans Sc';}
+.page-about__final-cta-button:after{position: absolute;content: "";width: 0;left: 0;bottom: -7px;background: #FFD600;height: 2px;transition: 0.3s ease-out;}
+.page-about__final-cta-button:hover:after{width: 100%;}
+.page-about__final-cta-button-arrow{font-size: clamp(20px, 7vw, 40px);font-family: 'Inter'; transition: margin-left .5s ease;}
+.page-about__final-cta-button:hover .page-about__final-cta-button-arrow{margin-left: 1em;}
+
+/* ! Page About final CTA media queries */
+@media (pointer: coarse) {
+  .page-about__final-cta-button:hover:after{width: 0%;}
+  .page-about__final-cta-button:hover .page-about__final-cta-button span{margin-left: 0em;}
+}
+@media (max-width: 768px) {
+  .page-about__final-cta-title-cont{position: static;}
+  .page-about__final-cta-title{padding: 0;}
+  .page-about__final-cta{margin-bottom: 110px;}
+  .page-about__final-cta-cont{flex-direction: column;}
+}
 
 
 /* -------------------------------------------------------------------------------- */
