@@ -235,14 +235,16 @@
     </div>
     <div class="section-2__mobile-item-content">
       <div class="section-2__mobile-item-content-2">
-        <h2>Cerchi un sito web che si <span class="yellow">distingua dalla massa</span>? Sei nel <span class="yellow">posto giusto</span>.</h2>
+        <h2>Stai cercando un <span class="yellow">sito web </span>professionale e adatto alle <span class="yellow">tue esigenze</span>?</br>Sei nel <span class="yellow">posto giusto</span></h2>
         <div class="section-2__mobile-line"></div>
         <p>
-          Dicono tutti che faranno un <span class="yellow">sito web speciale</span>, <span class="yellow">unico</span>, ma 	alla fine sono sempre tutti uguali, come se fossero prodotti in serie. Secondo te perché?
+          Dicono tutti che creeranno il <span class="yellow">“tuo”</span> sito web perfetto e <span class="yellow">professionale</span>, ma quando lo metti a confronto con gli altri, non riesci a trovare le differenze.
           </br></br>
-          L’obiettivo ormai, è quello di realizzare il maggior numero di siti web, <span class="yellow">senza</span> però <span class="yellow">preoccuparsi della qualità</span>...
+          Secondo te come mai?
           </br></br>
-          Se però sei alla ricerca di qualcosa di diverso, che si faccia notare e che possa davvero aiutare a <span class="yellow">crescere la tua attività</span>, sei nel posto giusto 😉
+          La maggioranza delle agenzie, fa uso di page builder (piattaforme che ti permettono di creare siti web, ma da modelli già predefiniti), e che quindi, <span class="yellow">limitano i potenziali del tuo sito web</span>.
+          </br></br>
+          Se però invece, hai bisogno di qualcosa di diverso, unico e capace di <span class="yellow">attirare l’attenzione</span>, Sei nel posto giusto 
         </p>
         <a class="section-2__mobile-cta button" href="https://meon.it/contatti"><?php esc_html_e( 'Scopri come!', 'meon'); ?></a>
       </div>
@@ -265,17 +267,16 @@
     </div>
     <div class="section-2__mobile-item-content">
       <div class="section-2__mobile-item-content-2">
-        <h2>Va bene, ma in cosa vi <span class="yellow">distinguete</span> in pratica?</h2>
+        <h2>Va bene, ma come renderete <span class="yellow">unico il mio sito web</span>?</h2>
         <div class="section-2__mobile-line"></div>
         <p>
-          Cosa ci rende unici? </br>
-          Il nostro pensiero: consideriamo i siti web non come semplici copie, ma come autentiche <span class="yellow">opere d’arte digitali</span> progettate su misura per te.
+          Come realizzeremo un <span class="yellow">sito web unico</span>? 
           </br></br>
-          La differenza tangibile? </br>
-          Utilizziamo il codice in modo creativo per creare animazioni coinvolgenti e sfruttiamo la SEO per far sì che <span class="yellow">il tuo sito web spicchi</span> tra i tuoi concorrenti.
+          Beh, innanzi tutto capiremo <span class="yellow">le tue</span> necessità per questo sito web, stando attenti a soddisfare ogni richiesta, ma senza peccare <span class="yellow">in stile</span>.
           </br></br>
-          <span class="yellow">L’obiettivo</span>? </br>
-          Far risaltare la tua presenza online in modo distintivo.
+          Successivamente, trasformeremo il progetto in realtà attraverso il codice, <span class="yellow">aggiungendo animazioni</span> per rendere il sito più dinamico e coinvolgente.
+          </br></br>
+          Infine inseriremo il contenuto, creando così un testo che non solo attiri l’attenzione, ma che sia anche ottimizzato per la SEO <span class="yellow">per attirare nuovi visitatori</span>.
         </p>
         <a class="section-2__mobile-cta button" href="https://meon.it/contatti"><?php esc_html_e( 'Creiamo qualcosa', 'meon'); ?></a>
       </div>
@@ -298,12 +299,14 @@
     </div>
     <div class="section-2__mobile-item-content">
       <div class="section-2__mobile-item-content-2">
-        <h2>Cosa intendiamo quando parliamo di <span class="yellow">'codice’</span>?</h2>
+        <h2>Perché usate il <span class="yellow">codice</span>?</h2>
         <div class="section-2__mobile-line"></div>
         <p>
-          A differenza di molte metodologie comuni, che si basano su page builder già predefiniti (che di conseguenza <span class="yellow">limitano la creatività</span> del tuo sito web), noi usiamo il codice.
+          Noi usiamo il codice (anche se è complicato e da far venire il mal di testa), per una semplice ragione: <span class="yellow">creatività</span>.
           </br></br>
-          Questo ci consente di rompere gli schemi, permettendoci di creare sul tuo sito web <span class="yellow">animazioni coinvolgenti</span> e un design assolutamente originale.
+          I template già compilati infatti, riducono drasticamente le possibilità <span class="yellow">di fare qualcosa di unico</span>, in quanto li usano tutti, e non sono tanto modificabili.
+          </br></br>
+          Se però invece, hai bisogno di qualcosa di diverso, unico e capace di attirare l’attenz... aspetta, forse l’ho già detto da qualche parte. 😑
         </p>
       </div>
     </div>
@@ -325,15 +328,16 @@
     </div>
     <div class="section-2__mobile-item-content">
       <div class="section-2__mobile-item-content-2">
-        <h2>Che cos’è la <span class="yellow">SEO</span> e a cosa serve al mio sito web?</h2>
+        <h2>Cos’è la <span class="yellow">SEO</span>? è davvero <span class="yellow">fondamentale</span> per il mio sito web?</h2>
         <div class="section-2__mobile-line"></div>
         <p>
-          La SEO (Search Engine Optimization) è come una <span class="yellow">bussola</span> 
-          per i motori di ricerca nel mondo digitale. 
+          La SEO (Search Engine Optimization), è come il <span class="yellow">Navigatore</span> per la tua auto, ma per i <span class="yellow">motori di ricerca</span>.
           </br></br>
-          Immagina i motori di ricerca come esploratori: la SEO funge da guida, dirigendoli verso il tuo sito web quando cercano argomenti simili.
+          Quando devi andare in qualche posto nuovo, hai bisogno di qualcuno che <span class="yellow">ti mostri la strada</span>.
           </br></br>
-          Grazie alle tecniche adeguate, possiamo potenziare la visibilità del tuo sito web, garantendo un <span class="yellow">miglior posizionamento</span> e attirando più visitatori.
+          Nella stessa maniera, coloro che necessitano dei tuoi servizi ma sono ancora ignari della tua esistenza, saranno in grado di <span class="yellow">individuare te e il tuo sito web</span>.
+          </br></br>
+          (Quindi si, mi sembra fondamentale).
         </p>
       </div>
     </div>
