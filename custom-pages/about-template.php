@@ -198,7 +198,7 @@
 
 
 <section class="page-about__section-2-reverse">
-<div class="page-about__section-2-reverse-circle"></div>
+  <div class="page-about__section-2-reverse-circle"></div>
 </section>
 
 
@@ -336,14 +336,14 @@
   <picture>
     <source media="(max-width: 600px)"
         srcset="<?php echo get_stylesheet_directory_uri(); ?>/custom/meon-image/about-page/4-full-image/meon-web-agency-web-design-realizzazione-siti-web-varese-tech-355-600.webp 300w,
-        <?php echo get_stylesheet_directory_uri(); ?>/custom/meon-image/about-page/4-full-image/meon-web-agency-web-design-realizzazione-siti-web-varese-tech-503-850.webp 600w,
-        <?php echo get_stylesheet_directory_uri(); ?>/custom/meon-image/about-page/4-full-image/meon-web-agency-web-design-realizzazione-siti-web-varese-tech-650-1100.webp">
-    <img loading="lazy" decoding="async" alt="Meon realizzazione siti web Wordpress Varese - stretta di mano con clienti"
+        <?php echo get_stylesheet_directory_uri(); ?>/custom/meon-image/about-page/4-full-image/meon-web-agency-web-design-realizzazione-siti-web-varese-tech-503-850.webp 450w,
+        <?php echo get_stylesheet_directory_uri(); ?>/custom/meon-image/about-page/4-full-image/meon-web-agency-web-design-realizzazione-siti-web-varese-tech-650-1100.webp 550w">
+    <img loading="lazy" decoding="async" alt="Meon realizzazione siti web Wordpress Varese - unicità nel tech"
       src="<?php echo get_stylesheet_directory_uri(); ?>/custom/meon-image/about-page/4-full-image/meon-web-agency-web-design-realizzazione-siti-web-varese-tech-1300-700.webp" 
       srcset="
-        <?php echo get_stylesheet_directory_uri(); ?>/custom/meon-image/about-page/4-full-image/meon-web-agency-web-design-realizzazione-siti-web-varese-tech-650-350.webp 769w, 
-        <?php echo get_stylesheet_directory_uri(); ?>/custom/meon-image/about-page/4-full-image/meon-web-agency-web-design-realizzazione-siti-web-varese-tech-950-512.webp 900w,
-        <?php echo get_stylesheet_directory_uri(); ?>/custom/meon-image/about-page/4-full-image/meon-web-agency-web-design-realizzazione-siti-web-varese-tech-1300-700.webp">
+        <?php echo get_stylesheet_directory_uri(); ?>/custom/meon-image/about-page/4-full-image/meon-web-agency-web-design-realizzazione-siti-web-varese-tech-650-350.webp 550w, 
+        <?php echo get_stylesheet_directory_uri(); ?>/custom/meon-image/about-page/4-full-image/meon-web-agency-web-design-realizzazione-siti-web-varese-tech-950-512.webp 800w,
+        <?php echo get_stylesheet_directory_uri(); ?>/custom/meon-image/about-page/4-full-image/meon-web-agency-web-design-realizzazione-siti-web-varese-tech-1300-700.webp 1100w">
   </picture>
 </section>
 
