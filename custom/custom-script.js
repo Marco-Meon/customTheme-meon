@@ -675,20 +675,40 @@ if (window.location.pathname === "/about/"){
   /* ! Page About accordion
   --------------------------------------------------------------------------------------------------- */
   document.addEventListener("DOMContentLoaded", function() {
-  const items = document.querySelectorAll(".page-about__accordion button");
+    const items = document.querySelectorAll(".page-about__accordion button");
+    function toggleAccordion() {
+      const itemToggle = this.getAttribute('aria-expanded');
+      for (i = 0; i < items.length; i++) {
+        items[i].setAttribute('aria-expanded', 'false');
+        items[i].nextElementSibling.style.maxHeight = null;
+      }
+      if (itemToggle == 'false') {
+        this.setAttribute('aria-expanded', 'true');
+        this.nextElementSibling.style.maxHeight = this.nextElementSibling.scrollHeight + "px";
+      }
+    }
+    items.forEach(item => item.addEventListener('click', toggleAccordion));
+  })
 
-  function toggleAccordion() {
-    const itemToggle = this.getAttribute('aria-expanded');
-    for (i = 0; i < items.length; i++) {
-      items[i].setAttribute('aria-expanded', 'false');
-      items[i].nextElementSibling.style.maxHeight = null;
+  document.addEventListener("DOMContentLoaded", function() {
+    const items = document.querySelectorAll(".accordion button");
+
+    function toggleAccordion() {
+      const itemToggle = this.getAttribute('aria-expanded');
+      
+      for (i = 0; i < items.length; i++) {
+        items[i].setAttribute('aria-expanded', 'false');
+        items[i].nextElementSibling.style.maxHeight = null;
+      }
+      
+      if (itemToggle == 'false') {
+        this.setAttribute('aria-expanded', 'true');
+        this.nextElementSibling.style.maxHeight = this.nextElementSibling.scrollHeight + "px";
+      }
     }
-    if (itemToggle == 'false') {
-      this.setAttribute('aria-expanded', 'true');
-      this.nextElementSibling.style.maxHeight = this.nextElementSibling.scrollHeight + "px";
-    }
-  }
-  items.forEach(item => item.addEventListener('click', toggleAccordion));
+    items.forEach(item => {
+      item.addEventListener('click', toggleAccordion);
+    });
   })
 }
 

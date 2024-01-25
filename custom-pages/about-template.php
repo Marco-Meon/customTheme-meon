@@ -385,6 +385,110 @@
 <?php include(get_template_directory() . '/custom-section/contact.php'); ?>
 
 
+<!-- ! About Page FAQ -->
+<section class="accordion">
+
+  <h2>Domande <span class="yellow">Frequenti</span></h2>
+
+  <div class="accordion-item">
+    <button aria-expanded="false">
+      <h3 class="accordion-title">Perché scegliere una web agency a Varese per il mio sito web?</h3>
+      <img aria-hidden="true" class="accordion__item-arrow" loading="lazy" decoding="async" src="<?php echo get_stylesheet_directory_uri(); ?>/custom/meon-image/logo/meon-web-agency-web-design-realizzazione-siti-web-varese-add-outline-logo.svg" alt="meon web agency web design realizzazione siti web varese search add logo">
+    </button>
+    <div class="accordion-content">
+      <p>
+        La realizzazione di siti web è il fulcro del nostro lavoro. Con una ampia conoscenza del mercato locale di Varese, siamo in grado di fornirti un sito web, che non solo sia esteticamente accattivante, ma anche ottimizzato per la SEO.
+      </p>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <button aria-expanded="false">
+      <h3 class="accordion-title">Avete già realizzato siti web a Varese?</h3>
+      <img aria-hidden="true" class="accordion__item-arrow" loading="lazy" decoding="async" src="<?php echo get_stylesheet_directory_uri(); ?>/custom/meon-image/logo/meon-web-agency-web-design-realizzazione-siti-web-varese-add-outline-logo.svg" alt="meon web agency web design realizzazione siti web varese search add logo">
+    </button>
+    <div class="accordion-content">
+      <p>
+        Sì, abbiamo già realizzato più siti web nell’area di Varese, soddisfacendo le esigenze dei nostri clienti.
+      </p>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <button aria-expanded="false">
+      <h3 class="accordion-title">Includete ottimizzazione SEO per i siti web che realizzate a Varese?</h3>
+      <img aria-hidden="true" class="accordion__item-arrow" loading="lazy" decoding="async" src="<?php echo get_stylesheet_directory_uri(); ?>/custom/meon-image/logo/meon-web-agency-web-design-realizzazione-siti-web-varese-add-outline-logo.svg" alt="meon web agency web design realizzazione siti web varese search add logo">
+    </button>
+    <div class="accordion-content">
+      <p>
+        I siti web che creiamo, sono sempre ottimizzati per la SEO, con lo scopo di massimizzare la tua visibilità. Tuttavia, se desideri un livello ulteriore di ottimizzazione, siamo qui per personalizzare la strategia SEO del tuo sito web a Varese in base alle tue specifiche esigenze.
+      </p>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <button aria-expanded="false">
+      <h3 class="accordion-title">I siti web che realizzate a Varese, sono ottimizzati anche da mobile?</h3>
+      <img aria-hidden="true" class="accordion__item-arrow" loading="lazy" decoding="async" src="<?php echo get_stylesheet_directory_uri(); ?>/custom/meon-image/logo/meon-web-agency-web-design-realizzazione-siti-web-varese-add-outline-logo.svg" alt="meon web agency web design realizzazione siti web varese search add logo">
+    </button>
+    <div class="accordion-content">
+      <p>
+        Sì, i siti web che realizziamo, sono ottimizzati per offrire un’esperienza ottimale su ogni dispositivo.
+      </p>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <button aria-expanded="false">
+      <h3 class="accordion-title">Offrite assistenza anche dopo il lancio per i siti web che realizzate?</h3>
+      <img aria-hidden="true" class="accordion__item-arrow" loading="lazy" decoding="async" src="<?php echo get_stylesheet_directory_uri(); ?>/custom/meon-image/logo/meon-web-agency-web-design-realizzazione-siti-web-varese-add-outline-logo.svg" alt="meon web agency web design realizzazione siti web varese search add logo">
+    </button>
+    <div class="accordion-content">
+      <p>
+        Assolutamente, dopo aver creato il sito web per la tua attività a Varese, continueremo a monitorarlo per assicurare che mantenga sempre il massimo delle prestazioni. 
+      </p>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <button aria-expanded="false">
+      <h3 class="accordion-title">Realizzate siti web a Varese per tutte le tipologie di attività?</h3>
+      <img aria-hidden="true" class="accordion__item-arrow" loading="lazy" decoding="async" src="<?php echo get_stylesheet_directory_uri(); ?>/custom/meon-image/logo/meon-web-agency-web-design-realizzazione-siti-web-varese-add-outline-logo.svg" alt="meon web agency web design realizzazione siti web varese search add logo">
+    </button>
+    <div class="accordion-content">
+      <p>
+        Sì, realizziamo siti web per ogni attività di Varese, qualunque sia il tuo campo. Assieme capiremo le tue necessità in base al contesto, e le soddisferemo creando un sito web unico. 
+      </p>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <button aria-expanded="false">
+      <h3 class="accordion-title">Posso modificare i contenuti del mio sito web a Varese?</h3>
+      <img aria-hidden="true" class="accordion__item-arrow" loading="lazy" decoding="async" src="<?php echo get_stylesheet_directory_uri(); ?>/custom/meon-image/logo/meon-web-agency-web-design-realizzazione-siti-web-varese-add-outline-logo.svg" alt="meon web agency web design realizzazione siti web varese search add logo">
+    </button>
+    <div class="accordion-content">
+      <p>
+        Certamente, con “assistenza”, intendiamo che una volta realizzato il tuo sito web e messo online, ti forniremo la possibilità di poter cambiare i testi, scrivendoli tu, o affidandoti a noi.
+      </p>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <button aria-expanded="false">
+      <h3 class="accordion-title">Posso integrare i social media nel mio sito web?</h3>
+      <img aria-hidden="true" class="accordion__item-arrow" loading="lazy" decoding="async" src="<?php echo get_stylesheet_directory_uri(); ?>/custom/meon-image/logo/meon-web-agency-web-design-realizzazione-siti-web-varese-add-outline-logo.svg" alt="meon web agency web design realizzazione siti web varese search add logo">
+    </button>
+    <div class="accordion-content">
+      <p>
+        Ovviamente, i social media offrono una grandissima visibilità per i siti web, creando opportunità uniche per creare legami tra te, e il tuo pubblico. Infatti, integriamo ogni volta le pagine social dei nostri clienti, nei siti web  che abbiamo fatto per loro.
+      </p>
+    </div>
+  </div>
+
+</section>
+
+
 <main class="main">
 
   <div class="grid grid--center">
