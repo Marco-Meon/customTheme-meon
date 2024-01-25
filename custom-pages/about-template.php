@@ -197,6 +197,11 @@
 </section>
 
 
+<section class="page-about__section-2-reverse">
+<div class="page-about__section-2-reverse-circle"></div>
+</section>
+
+
 <section class="page-about__section-4">
 
   <h2><span class="yellow">Siti Web</span> realizzati a <span class="yellow">Varese</span></h2>

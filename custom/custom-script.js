@@ -604,60 +604,54 @@ if (window.location.pathname === "/about/"){
 
   /* ! Page About section 2
   --------------------------------------------------------------------------------------------------- */
-  if(window.innerWidth < 768){
-    gsap.to(".page-about__section-2-circle", {clipPath:'circle(100%)', scrollTrigger: {trigger: ".page-about__section-2",start: "top 0%", end:'+=100%',scrub: true}})
-  }
-  if(window.innerWidth >= 768){
-    gsap.to(".page-about__section-2-circle", {clipPath:'circle(100%)', scrollTrigger: {trigger: ".page-about__section-2",start: "top", end:'+=100%',scrub: true}})
-  }
+  gsap.to(".page-about__section-2-circle", {clipPath:'circle(100%)', scrollTrigger: {trigger: ".page-about__section-2",start: "top 0%", end:'+=100%',scrub: true}})
+  gsap.to(".page-about__section-2-circle", {clipPath:'circle(100%)', scrollTrigger: {trigger: ".page-about__section-2",start: "top", end:'+=100%',scrub: true}})
 
-  if(window.innerWidth > 768){
-    let tl2 = gsap.timeline();
-    tl2.to(".page-about__section-2-number-1", {opacity: 1, scrollTrigger: {trigger: ".page-about__section-2-content-1",start: "top -50%",end:'+=100%', scrub: false}})
-    tl2.to(".page-about__section-2-content-1", {opacity: 1,top:0, scrollTrigger: {trigger: ".page-about__section-2-content-1",start: "top -50%",end:'+=100%', scrub: false,
-      onLeave: (self) => {
-        gsap.to(".page-about__section-2-content-1", {opacity:0,top:'50%'});
-        gsap.to(".page-about__section-2-content-2", {opacity:1,top:0});
-        gsap.to(".page-about__section-2-number-2", {opacity:1});
-        gsap.to(".page-about__section-2-number-1", {opacity:0});
-      },
-      onLeaveBack: (self) => {
-        gsap.to(".page-about__section-2-content-1", {opacity:1,top:0});
-        gsap.to(".page-about__section-2-content-2", {opacity:0,top:'50%'});
-        gsap.to(".page-about__section-2-number-1", {opacity:1});
-        gsap.to(".page-about__section-2-number-2", {opacity:0});
-      }
-    }})
-    tl2.to(".page-about__section-2-content-2", {opacity: 1,top:0, scrollTrigger: {trigger: ".page-about__section-2-content-2",start: "top -150%",end:'+=100%', scrub: false, 
-      onLeave: (self) => {
-        gsap.to(".page-about__section-2-content-2", {opacity:0,top:'50%'});
-        gsap.to(".page-about__section-2-content-3", {opacity:1,top:0});
-        gsap.to(".page-about__section-2-number-3", {opacity:1});
-        gsap.to(".page-about__section-2-number-2", {opacity:0});
-      },
-      onLeaveBack: (self) => {
-        gsap.to(".page-about__section-2-content-3", {opacity:0,top:'50%'});
-        gsap.to(".page-about__section-2-content-2", {opacity:1,top:0});
-        gsap.to(".page-about__section-2-number-2", {opacity:1});
-        gsap.to(".page-about__section-2-number-3", {opacity:0});
-      }
-    }})
-    tl2.to(".page-about__section-2-content-3", {opacity: 1,top:0, scrollTrigger: {trigger: ".page-about__section-2-content-3",start: "top -250%",end:'+=100%', scrub: false,
-      onLeave: (self) => {
-        gsap.to(".page-about__section-2-content-3", {opacity:0,top:'50%'});
-        gsap.to(".page-about__section-2-content-4", {opacity:1,top:0});
-        gsap.to(".page-about__section-2-number-4", {opacity:1});
-        gsap.to(".page-about__section-2-number-3", {opacity:0});
-      },
-      onLeaveBack: (self) => {
-        gsap.to(".page-about__section-2-content-3", {opacity:1,top:0});
-        gsap.to(".page-about__section-2-content-4", {opacity:0,top:'50%'});
-        gsap.to(".page-about__section-2-number-3", {opacity:1});
-        gsap.to(".page-about__section-2-number-4", {opacity:0});
-      }
-    }})
-    tl2.to(".page-about__section-2-content-4", {opacity: 1,top:0, scrollTrigger: {trigger: ".page-about__section-2-content-4",start: "top -350%",end:'+=100%', scrub: false}})
-  }
+  let tl2 = gsap.timeline();
+  tl2.to(".page-about__section-2-number-1", {opacity: 1, scrollTrigger: {trigger: ".page-about__section-2-content-1",start: "top -50%",end:'+=100%', scrub: false}})
+  tl2.to(".page-about__section-2-content-1", {opacity: 1,top:0, scrollTrigger: {trigger: ".page-about__section-2-content-1",start: "top -50%",end:'+=100%', scrub: false,
+    onLeave: (self) => {
+      gsap.to(".page-about__section-2-content-1", {opacity:0,top:'50%'});
+      gsap.to(".page-about__section-2-content-2", {opacity:1,top:0});
+      gsap.to(".page-about__section-2-number-2", {opacity:1});
+      gsap.to(".page-about__section-2-number-1", {opacity:0});
+    },
+    onLeaveBack: (self) => {
+      gsap.to(".page-about__section-2-content-1", {opacity:1,top:0});
+      gsap.to(".page-about__section-2-content-2", {opacity:0,top:'50%'});
+      gsap.to(".page-about__section-2-number-1", {opacity:1});
+      gsap.to(".page-about__section-2-number-2", {opacity:0});
+    }
+  }})
+  tl2.to(".page-about__section-2-content-2", {opacity: 1,top:0, scrollTrigger: {trigger: ".page-about__section-2-content-2",start: "top -150%",end:'+=100%', scrub: false, 
+    onLeave: (self) => {
+      gsap.to(".page-about__section-2-content-2", {opacity:0,top:'50%'});
+      gsap.to(".page-about__section-2-content-3", {opacity:1,top:0});
+      gsap.to(".page-about__section-2-number-3", {opacity:1});
+      gsap.to(".page-about__section-2-number-2", {opacity:0});
+    },
+    onLeaveBack: (self) => {
+      gsap.to(".page-about__section-2-content-3", {opacity:0,top:'50%'});
+      gsap.to(".page-about__section-2-content-2", {opacity:1,top:0});
+      gsap.to(".page-about__section-2-number-2", {opacity:1});
+      gsap.to(".page-about__section-2-number-3", {opacity:0});
+    }
+  }})
+  tl2.to(".page-about__section-2-content-3", {opacity: 1,top:0, scrollTrigger: {trigger: ".page-about__section-2-content-3",start: "top -250%",end:'+=100%', scrub: false,
+    onLeave: (self) => {
+      gsap.to(".page-about__section-2-content-3", {opacity:0,top:'50%'});
+      gsap.to(".page-about__section-2-content-4", {opacity:1,top:0});
+      gsap.to(".page-about__section-2-number-4", {opacity:1});
+      gsap.to(".page-about__section-2-number-3", {opacity:0});
+    },
+    onLeaveBack: (self) => {
+      gsap.to(".page-about__section-2-content-3", {opacity:1,top:0});
+      gsap.to(".page-about__section-2-content-4", {opacity:0,top:'50%'});
+      gsap.to(".page-about__section-2-number-3", {opacity:1});
+      gsap.to(".page-about__section-2-number-4", {opacity:0});
+    }
+  }})
+  tl2.to(".page-about__section-2-content-4", {opacity: 1,top:0, scrollTrigger: {trigger: ".page-about__section-2-content-4",start: "top -350%",end:'+=100%', scrub: false}})
 
 
   /* ! Page About section 3
